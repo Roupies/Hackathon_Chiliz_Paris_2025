@@ -8,8 +8,8 @@ import { useNavigationHaptics } from '@/hooks/useHapticFeedback';
 const navItems = [
   { href: '/', icon: Home, label: 'Home' },
   { href: '/matches', icon: ListOrdered, label: 'Matches' },
-  { href: '/profile', icon: User, label: 'Profile' },
   { href: '/predictions', icon: BarChart, label: 'Predictions' },
+  { href: '/profile', icon: User, label: 'Profile' },
 ];
 
 export default function BottomNav() {
